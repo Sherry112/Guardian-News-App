@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/view_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_ten"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/thumbnail_imageView"
+        style="@style/thumbnail_imageView"
+        android:src="@drawable/news"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/base"
+        android:layout_toRightOf="@id/thumbnail_imageView">
+
+        <TextView
+            android:id="@+id/sectionHeading_textView"
+            style="@style/section_heading_text" />
+
+        <TextView
+            android:id="@+id/title_textView"
+            style="@style/title_text_view" />
+
+        <TextView
+            android:id="@+id/publishTime_textView"
+            style="@style/publishTime_text_view"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

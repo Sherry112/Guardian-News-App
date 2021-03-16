@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="logo">logo</string>
+    <string name="no_news">NO NEWS ARTICLES FOUND</string>
+    <string name="no_internet_connection">NO INTERNET CONNECTION</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Settings</string>
+
+
+    <string name="search_by_word">Search by word</string>
+    <string name="searched_key" translatable="false">typed_value</string>
+    <string name="default_value" translatable="false">Politics</string>
+
+    <string name="searched_section_key" translatable="false">section</string>
+    <string name="default_section" translatable="false">null</string>
+    <string name="section_label" translatable="false">Section</string>
+
+
+    <string name="number_of_searches_default" translatable="false">10</string>
+    <string name="number_of_searches_key" translatable="false">number_of_results</string>
+    <string name="number_of_searches_label" translatable="false">"Number of Results"</string>
+
+
+
+
+    <string-array name="number_of_results">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>50</item>
+
+    </string-array>
+
+    <string-array name="navigation_drawer_list">
+        <item>Fresh News</item>
+        <item>World</item>
+        <item>Sport</item>
+        <item>Football</item>
+        <item>Culture</item>
+        <item>Business</item>
+        <item>Fashion</item>
+        <item>Technology</item>
+        <item>Travel</item>
+        <item>Money</item>
+        <item>Science</item>
+    </string-array>
+</resources>

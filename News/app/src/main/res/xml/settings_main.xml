@@ -1,0 +1,26 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/default_value"
+        android:entries="@array/navigation_drawer_list"
+        android:entryValues="@array/navigation_drawer_list"
+        android:key="@string/searched_key"
+        android:title="@string/section_label"/>
+    <ListPreference
+        android:defaultValue="@string/number_of_searches_default"
+        android:key="@string/number_of_searches_key"
+        android:title="@string/number_of_searches_label"
+        android:entries="@array/number_of_results"
+        android:entryValues="@array/number_of_results"/>
+
+
+    <EditTextPreference
+        android:defaultValue="@string/default_section"
+        android:inputType="textAutoComplete"
+        android:key="@string/searched_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/search_by_word" />
+
+</PreferenceScreen>
